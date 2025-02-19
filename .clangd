@@ -1,0 +1,36 @@
+Diagnostics:
+  ClangTidy:
+    Add:
+      [
+        readability-identifier*,
+      ]
+    CheckOptions:
+      readability-identifier-naming.VariableCase: lower_case
+      # 全局变量命名：大驼峰命名法，前缀为 'g'
+      readability-identifier-naming.GlobalVariableCase: CamelCase
+      readability-identifier-naming.GlobalVariablePrefix: g
+      # 成员变量命名：小写字母，单词间用下划线分隔，前缀为 'm'
+      readability-identifier-naming.MemberPrefix: m
+      readability-identifier-naming.MemberCase: lower_case
+      # 类成员变量命名：小写字母，单词间用下划线分隔，前缀为 'm'
+      readability-identifier-naming.ClassMemberPrefix: m
+      readability-identifier-naming.ClassMemberCase: lower_case
+      # 常量命名：大驼峰命名法，前缀为 'k'
+      readability-identifier-naming.ConstantCase: CamelCase
+      readability-identifier-naming.ConstantPrefix: k
+      # 枚举命名：全大写字母，单词间用下划线分隔
+      readability-identifier-naming.EnumCase: UPPER_CASE
+      # 枚举常量命名：全大写字母，单词间用下划线分隔
+      readability-identifier-naming.EnumConstantCase: UPPER_CASE
+      # 宏定义命名：全大写字母，单词间用下划线分隔
+      readability-identifier-naming.MacroDefinitionCase: UPPER_CASE
+      # 类命名：大驼峰命名法
+      readability-identifier-naming.ClassCase: CamelCase
+      # 结构体命名：小写字母，单词间用下划线分隔
+      readability-identifier-naming.StructCase: lower_case
+      # 函数命名：小写字母，单词间用下划线分隔
+      readability-identifier-naming.FunctionCase: lower_case
+      # 类方法命名：小写字母，单词间用下划线分隔
+      readability-identifier-naming.ClassMethodCase: lower_case
+      # 方法命名：小写字母，单词间用下划线分隔
+      readability-identifier-naming.MethodCase: lower_case

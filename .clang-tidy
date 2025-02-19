@@ -1,0 +1,134 @@
+---
+Checks: "*,
+        -abseil-*,
+        -altera-*,
+        -android-*,
+        -fuchsia-*,
+        -google-*,
+        -llvm*,
+        -modernize-use-trailing-return-type,
+        -zircon-*,
+        -readability-else-after-return,
+        -readability-static-accessed-through-instance,
+        -readability-avoid-const-params-in-decls,
+        -cppcoreguidelines-non-private-member-variables-in-classes,
+        -misc-non-private-member-variables-in-classes,
+        -readability-identifier-length,
+"
+WarningsAsErrors: ''
+HeaderFilterRegex: ''
+# # 启用 readability-identifier-naming 检查
+# readability-identifier-naming:
+#   # 类型命名（类、结构体、类型定义、枚举、类型模板参数）应使用大驼峰命名法
+#   TypeCase: 'CamelCase'
+#   # 变量命名（包括函数参数）应使用小写字母，单词之间用下划线分隔
+#   VariableCase: 'lower_case'
+#   # 类成员变量命名应在变量命名的基础上添加尾部下划线
+#   ClassMemberCase: 'lower_case'
+#   ClassMemberSuffix: '_'
+#   # 常量命名应以 'k' 开头，后接大驼峰命名法
+#   ConstantCase: 'CamelCase'
+#   ConstantPrefix: 'k'
+#   # 函数命名应使用大驼峰命名法
+#   FunctionCase: 'CamelCase'
+#   # 命名空间命名应使用小写字母，单词之间用下划线分隔
+#   NamespaceCase: 'lower_case'
+#   # 枚举值命名应使用全大写字母，单词之间用下划线分隔
+#   EnumCase: 'UPPER_CASE'
+#   EnumPrefix: ''
+#   EnumSuffix: ''
+#   # 宏命名应使用全大写字母，单词之间用下划线分隔
+#   MacroCase: 'UPPER_CASE'
+#   MacroPrefix: ''
+#   MacroSuffix: ''
+#   # 匈牙利命名法前缀设置
+#   HungarianPrefix: 'Off'
+#   # 忽略特定的命名规则
+#   IgnoreCase: ''
+#   IgnorePrefix: ''
+#   IgnoreSuffix: ''
+#   IgnoreRegexp: ''
+#   # 启用对常量指针参数的命名检查
+#   CheckConstantPointerParameter: true
+#   # 启用对 constexpr 函数的命名检查
+#   CheckConstexprFunction: true
+#   # 启用对抽象类的命名检查
+#   CheckAbstractClass: true
+#   # 启用对概念的命名检查
+#   CheckConcept: true
+#   # 启用对常量的命名检查
+#   CheckConstant: true
+#   # 启用对类方法的命名检查
+#   CheckClassMethod: true
+#   # 启用对类成员的命名检查
+#   CheckClassMember: true
+#   # 启用对函数的命名检查
+#   CheckFunction: true
+#   # 启用对命名空间的命名检查
+#   CheckNamespace: true
+#   # 启用对枚举的命名检查
+#   CheckEnum: true
+#   # 启用对宏的命名检查
+#   CheckMacro: true
+#   # 启用对模板参数的命名检查
+#   CheckTemplateParameter: true
+#   # 启用对类型别名的命名检查
+#   CheckTypeAlias: true
+#   # 启用对类型定义的命名检查
+#   CheckTypeDef: true
+#   # 启用对类型模板参数的命名检查
+#   CheckTypeTemplateParameter: true
+#   # 启用对类型的命名检查
+#   CheckType: true
+#   # 启用对变量的命名检查
+#   CheckVariable: true
+#   # 启用对函数参数的命名检查
+#   CheckFunctionParameter: true
+#   # 启用对函数返回值的命名检查
+#   CheckFunctionReturn: true
+#   # 启用对函数指针的命名检查
+#   CheckFunctionPointer: true
+#   # 启用对函数模板参数的命名检查
+#   CheckFunctionTemplateParameter: true
+#   # 启用对函数模板的命名检查
+#   CheckFunctionTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命名检查
+#   CheckFunctionPointerTemplateParameter: true
+#   # 启用对函数指针模板的命名检查
+#   CheckFunctionPointerTemplate: true
+#   # 启用对函数指针模板参数的命
+# ::contentReference[oaicite:0]{index=0}
+#  
+#
